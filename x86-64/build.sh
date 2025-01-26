@@ -40,6 +40,12 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES daed"
+PACKAGES="$PACKAGES v2raya"
+PACKAGES="$PACKAGES mosdns"
+PACKAGES="$PACKAGES adguardhome"
+
+
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
