@@ -44,6 +44,8 @@ PACKAGES="$PACKAGES daed"
 PACKAGES="$PACKAGES v2raya"
 PACKAGES="$PACKAGES mosdns"
 PACKAGES="$PACKAGES adguardhome"
+# 输出调试信息
+echo "$(date '+%Y-%m-%d %H:%M:%S') - 不止是否调用 输出看看..."
 
 
 
