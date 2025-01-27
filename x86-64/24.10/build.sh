@@ -33,18 +33,17 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #24.10
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
-PACKAGES="$PACKAGES luci-app-openclash"
-PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
-PACKAGES="$PACKAGES openssh-sftp-server"
+#PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+#PACKAGES="$PACKAGES luci-app-openclash"
+#PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+#PACKAGES="$PACKAGES openssh-sftp-server"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES daed"
 PACKAGES="$PACKAGES v2raya"
-PACKAGES="$PACKAGES mosdns"
-PACKAGES="$PACKAGES adguardhome"
+
 # 输出调试信息
 echo "$(date '+%Y-%m-%d %H:%M:%S') - 这个在24里..."
 
