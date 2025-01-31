@@ -45,7 +45,7 @@ PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-v2raya-zh-cn"
 PACKAGES="$PACKAGES wget-ssl"
 #usb千兆网卡驱动
-PACKAGES="$PACKAGES kmod-usb-net-rtl8152"
+#PACKAGES="$PACKAGES kmod-usb-net-rtl8152"
  
 
 # 输出调试信息
