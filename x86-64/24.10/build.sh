@@ -41,7 +41,7 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
-#PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
 #PACKAGES="$PACKAGES luci-i18n-v2raya-zh-cn"
 PACKAGES="$PACKAGES wget-ssl"
 #usb千兆网卡驱动
